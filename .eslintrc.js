@@ -8,8 +8,8 @@ module.exports = {
     },
     plugins: ["cypress"],
     settings: {
-      /*jest: {
-        version: 28
-      }*/
+      jest: {
+        version: 29
+      }
     }
   };
