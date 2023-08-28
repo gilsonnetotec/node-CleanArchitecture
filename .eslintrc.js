@@ -1,15 +1,10 @@
 module.exports = {
-    extends: "standard-with-typescript",
-    env: {
-      "cypress/globals": true
-    },
-    parserOptions: {
-      project: './tsconfig.json'
-    },
-    plugins: ["cypress"],
-    settings: {
-      jest: {
-        version: 29
-      }
-    }
-  };
+  extends: 'standard-with-typescript',
+  parserOptions: {
+    project: './tsconfig.json'
+  },
+  rules: {
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off'
+  }
+}
