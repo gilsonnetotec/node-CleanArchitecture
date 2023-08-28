@@ -1,10 +1,10 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist",
-      "module": "commonjs",
-      "target": "ESNext", 
-      "esModuleInterop": true,
-      "allowJs": true
-    },
-    "include": ["src", "./.eslintrc.js"] // Adicione aqui os diretórios com seus arquivos TypeScript
-  }
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowJs": true
+  },
+  "include": ["src", "./.eslintrc.js"] // Adicione aqui os diretórios com seus arquivos TypeScript
+}
